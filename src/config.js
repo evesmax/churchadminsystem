@@ -6,5 +6,5 @@ module.exports = {
         password: process.env.DATABASE_PASSWORD || 'nmdevel',
         database: process.env.DATABASE_NAME || 'db_links'
     },
-    port: process.env.PORT || 4000
+    port: process.env.PORT || 80
 };
